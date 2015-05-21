@@ -1,4 +1,17 @@
 A simple NFS share checking tool.
 
+Usage:
 
-Hoping to include NMAP xml parsing so can provide it XML output from nmap scans.
+single IP address:
+
+python NFS-Checker.py -s <ip-address>
+
+Newline seperated file:
+
+python NFS-Checker.py -l <ip-list>
+
+Nmap XML output file:
+
+python NFS-Checker.py -x <xml-output-from-nmap>
+
+ 
